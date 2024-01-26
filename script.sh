@@ -12,5 +12,5 @@ then
   sudo apt update
   sudo apt install firefox -y
 else
-  echo 'Architecture not x86_64, install skipped'
+  echo 'Architecture not supported, install skipped'
 fi
